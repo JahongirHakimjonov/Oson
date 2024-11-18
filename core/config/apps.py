@@ -7,7 +7,7 @@ THIRD_PARTY_APPS = [
     "unfold.contrib.guardian",
     "unfold.contrib.simple_history",
     "modeltranslation",
-    "django_ckeditor_5",
+    # "django_ckeditor_5",
     "corsheaders",
     "rosetta",
     "rest_framework",
@@ -26,4 +26,6 @@ DEFAULT_APPS = [
 
 PROJECT_APPS = [
     "apps.shared.apps.SharedConfig",
+    "apps.oson.apps.OsonConfig",
+    "apps.users.apps.UsersConfig",
 ]
